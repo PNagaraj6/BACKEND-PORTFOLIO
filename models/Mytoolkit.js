@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const toolkitSchema = new mongoose.Schema(
     {
         category:String,
-        Skills:{
+        skills:{
             name:String,
             level:String
         }
